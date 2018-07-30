@@ -78,8 +78,8 @@
     // Branding Side
     &-branding {
         background: $primary-color;
-        @include easeOut;
         transform: translate3d(0, 100%, 0);
+        @include easeOut;
 
         &.show {
             // Slide in from the bottom
